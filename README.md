@@ -28,3 +28,16 @@ npm run build -- --zip
 
 You should see the build directory, with the zip file inside called `chrome-mv3-prod.zip`.
 
+## Uploading a chrome extension to Browserbase
+
+Run the following command, replacing `<BROWSERBASE_API_KEY>` with your Browserbase API key.
+
+This should return a response with the extension ID.
+
+```zsh
+curl --request POST \
+  --url https://www.browserbase.com/v1/extensions \
+  --header 'Content-Type: multipart/form-data' \
+  --header 'X-BB-API-Key: <BROWSERBASE_API_KEY>' \
+  --form 'file=@build/chrome-mv3-prod.zip'
+```
