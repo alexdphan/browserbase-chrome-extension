@@ -24,7 +24,7 @@ npm run dev
 
 For further guidance, [visit our Documentation](https://docs.browserbase.com/)
 
-## Generating a zip bundle for Browserbase
+## Generating a zip bundle for Browserbase [using Plasmo CLI](https://docs.plasmo.com/framework/workflows/build#generating-a-zip-bundle)
 
 Run the following:
 
