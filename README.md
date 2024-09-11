@@ -6,7 +6,15 @@ This is a simple extension for the purpose of demonstrating how to upload a [chr
 
 ## Getting Started
 
-First, clone the repository and run the development server:
+First, clone the repository and install the dependencies:
+
+```bash
+pnpm install
+# or
+npm install
+```
+
+run the development server:
 
 ```bash
 pnpm dev
@@ -22,7 +30,7 @@ Run the following:
 
 ```bash
 pnpm build --zip
-# OR
+# or
 npm run build -- --zip
 ```
 
